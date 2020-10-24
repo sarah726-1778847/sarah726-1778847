@@ -1,0 +1,62 @@
+<form>
+    <h1 style= "background-color: yellow;">Job Application</h1>
+    <p><i>Please fill out the following information before Dec 31st, 2020</i></p>
+<label>
+    First name: <input type="text" name="firstname"><br> Last name: <input type="text" name="lastname">
+    <br>
+    Password: <input type="password" name="pwd">
+    <br>
+    <br>
+</label>
+Have you worked at one of our other branches?
+<br>
+<input type="radio" name="answer" value="yes"> Yes<br> <input type="radio" name="answer" value="no"> No
+<br>
+<br>
+Tell us about your work experience in the box below:
+<br>
+<textarea name="essay">Work experience...</textarea>
+<br>
+<br>
+What experience can you bring?
+<br>
+<input type="checkbox" name="experience" value="Marketing">Marketing<br> <input type="checkbox" name="experience" value="Finance">Finance<br> <input type="checkbox" name="experience" value="Accounting">Accounting<br><input type="checkbox" name="experience" 
+value="Coding">Coding<br> <input type="checkbox" name="experience" value="Communication">Communication<br> <input type="checkbox" name="experience" value="Reception">Reception
+<br>
+<br>
+Which coding method did your previous employer use?
+<br>
+<select name="codes"> <option value="html">HTML</option> <option value="JavaScript">JavaScript</option> <option value="Python">Python</option> <option value="C">C</option></select> 
+<br>
+<br>
+What are your pronouns?
+<form name="input" action="html_form_action.asp" method="post"></form>
+<input type="radio" id="He/Him" name="pronouns" value="He/Him">
+<label for="He/Him">He/Him</label><br>
+<input type="radio" id="She/Her" name="pronouns" value="She/Her">
+<label for="She/Her">She/Her</label><br>
+<input type="radio" id="They/Them" name="pronouns" value="They/Them">
+<label for="They/Them">They/Them</label>
+<br>
+<input type="radio" id="other" name="pronouns" value="other">
+<label for="other">Other</label>
+<br>
+<br>
+<p>Choose a work schedule preference.</p>
+<form action="/action_page.php">
+  <label for="work">Scroll to see all options:</label>
+  <br>
+  <select id="work" name="work" size="3">
+    <option value="part">part-time</option>
+    <option value="full">full-time</option>
+    <option value="flexible">flexible-hours</option>
+    <option value="home">work from home</option>
+    <option value="mornings">mornings only</option>
+    <option value="afternoons">afternoons only</option>
+  </select><br><br>
+<h4>Click the button below to subscribe to job availability updates!</h4>
+<button type="button" onclick="alert('Hello World!')">Subscribe</button>
+<br>
+<br>
+<input type="submit" value="Submit form">
+</form>
